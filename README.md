@@ -48,23 +48,23 @@ Python Journey/
 
 🎯 Goal of This Repository
 
-Build strong Python fundamentals
+* Build strong Python fundamentals
 
-Practice every concept with hands-on coding
+* Practice every concept with hands-on coding
 
-Maintain consistency and share my journey publicly
+* Maintain consistency and share my journey publicly
 
-Progress towards automation, backend, data analysis, and projects
+* Progress towards automation, backend, data analysis, and projects
 
 🔄 Upcoming (Week 2)
 
-Control Statements (if-else, loops)
+* Control Statements (if-else, loops)
 
-Functions
+* Functions
 
-Lists, Tuples, Sets, Dictionaries
+* Lists, Tuples, Sets, Dictionaries
 
-More practice sets
+* More practice sets
 
 ⭐ Stay Consistent
 
