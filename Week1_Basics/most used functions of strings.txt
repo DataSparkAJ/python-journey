@@ -1,0 +1,36 @@
+text = "  Hello, Python World!  "
+
+# --- Case Conversion ---
+text.upper()        # Convert to uppercase
+text.lower()        # Convert to lowercase
+text.title()        # Capitalize each word
+text.capitalize()   # Capitalize first letter
+
+# --- Trim / Clean Strings ---
+text.strip()        # Remove spaces from both ends
+text.lstrip()       # Remove spaces from left
+text.rstrip()       # Remove spaces from right
+
+# --- Search & Replace ---
+text.find("Python")     # Return index of substring (-1 if not found)
+text.replace("Python", "Programming")  # Replace substring
+text.count("o")         # Count occurrences of a character or substring
+
+# --- Split & Join ---
+text.split()            # Split by whitespace into a list
+text.split(",")         # Split by specific separator
+",".join(["a","b","c"]) # Join list into string with comma
+
+# --- String Checks (Booleans) ---
+"Hello".isalpha()   # True: only letters
+"123".isdigit()     # True: only digits
+"abc123".isalnum()  # True: letters and numbers
+"hello".islower()   # True: all lowercase
+"HELLO".isupper()   # True: all uppercase
+"   ".isspace()     # True: only whitespace
+
+# --- Useful Formatting ---
+name = "Alice"
+age = 25
+f"My name is {name}, and I am {age}"  # Modern f-string formatting (most used)
+
