@@ -1,0 +1,165 @@
+──────────────────────────────────────────────────────────────
+              PYTHON DICTIONARY METHODS — SUMMARY
+──────────────────────────────────────────────────────────────
+
+📘 What is a Dictionary?
+   → A dictionary stores data in **key–value pairs**.
+   → Defined using curly braces { }.
+
+   Example:
+       d = {'name': 'Ajay', 'age': 21, 'city': 'Delhi'}
+
+   ✅ Keys are unique
+   ✅ Values can be of any type
+   ✅ Mutable (can be changed)
+   ✅ Unordered (in Python 3.6+, order of insertion is preserved)
+
+──────────────────────────────────────────────────────────────
+🔹 BASIC DICTIONARY METHODS
+──────────────────────────────────────────────────────────────
+
+1. get(key, default)
+   → Returns the value for the given key.
+     If the key is not found, returns the default value (None if not given).
+   Example:
+       d = {'name': 'Ajay', 'age': 21}
+       d.get('age')
+       # Result → 21
+       d.get('city', 'Not Found')
+       # Result → 'Not Found'
+
+2. keys()
+   → Returns all keys in the dictionary as a view object.
+   Example:
+       d = {'a': 1, 'b': 2, 'c': 3}
+       d.keys()
+       # Result → dict_keys(['a', 'b', 'c'])
+
+3. values()
+   → Returns all values in the dictionary.
+   Example:
+       d = {'a': 1, 'b': 2, 'c': 3}
+       d.values()
+       # Result → dict_values([1, 2, 3])
+
+4. items()
+   → Returns all key–value pairs as tuples.
+   Example:
+       d = {'a': 1, 'b': 2}
+       d.items()
+       # Result → dict_items([('a', 1), ('b', 2)])
+
+5. update(other_dict)
+   → Adds key–value pairs from another dictionary or iterable.
+     Updates existing keys with new values.
+   Example:
+       d = {'a': 1, 'b': 2}
+       d.update({'b': 5, 'c': 3})
+       # Result → {'a': 1, 'b': 5, 'c': 3}
+
+6. pop(key, default)
+   → Removes and returns the value for the given key.
+     If key not found and default is given, returns default.
+   Example:
+       d = {'a': 1, 'b': 2, 'c': 3}
+       d.pop('b')
+       # Result → 2
+       # Dictionary → {'a': 1, 'c': 3}
+
+7. popitem()
+   → Removes and returns the **last inserted key–value pair** (as a tuple).
+   Example:
+       d = {'a': 1, 'b': 2}
+       d.popitem()
+       # Result → ('b', 2)
+
+8. setdefault(key, default)
+   → Returns the value of the key if it exists,
+     otherwise inserts the key with the given default value.
+   Example:
+       d = {'name': 'Ajay'}
+       d.setdefault('age', 21)
+       # Result → 21
+       # Dictionary → {'name': 'Ajay', 'age': 21}
+
+9. copy()
+   → Returns a shallow copy of the dictionary.
+   Example:
+       d = {'a': 1, 'b': 2}
+       new_d = d.copy()
+       # new_d → {'a': 1, 'b': 2}
+
+10. clear()
+    → Removes all items from the dictionary.
+    Example:
+        d = {'a': 1, 'b': 2}
+        d.clear()
+        # Result → {}
+
+──────────────────────────────────────────────────────────────
+🔹 BUILT-IN FUNCTIONS USED WITH DICTIONARIES
+──────────────────────────────────────────────────────────────
+
+11. len(d)
+    → Returns the number of key–value pairs.
+    Example:
+        d = {'a': 1, 'b': 2, 'c': 3}
+        len(d)
+        # Result → 3
+
+12. str(d)
+    → Returns a string representation of the dictionary.
+    Example:
+        d = {'x': 10}
+        str(d)
+        # Result → "{'x': 10}"
+
+13. type(d)
+    → Returns the type of the object.
+    Example:
+        type(d)
+        # Result → <class 'dict'>
+
+──────────────────────────────────────────────────────────────
+🔹 DICTIONARY COMPREHENSIONS (ADVANCED)
+──────────────────────────────────────────────────────────────
+
+14. Dictionary comprehension
+    → A concise way to create dictionaries using loops.
+    Example:
+        squares = {x: x**2 for x in range(1, 6)}
+        # Result → {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+──────────────────────────────────────────────────────────────
+🔹 OTHER USEFUL OPERATIONS
+──────────────────────────────────────────────────────────────
+
+15. membership test
+    → Check if a key exists in the dictionary.
+    Example:
+        d = {'a': 1, 'b': 2}
+        'a' in d
+        # Result → True
+
+16. deleting a key
+    Example:
+        d = {'a': 1, 'b': 2}
+        del d['a']
+        # Result → {'b': 2}
+
+17. merging dictionaries (Python 3.9+)
+    Example:
+        d1 = {'a': 1, 'b': 2}
+        d2 = {'b': 3, 'c': 4}
+        d3 = d1 | d2
+        # Result → {'a': 1, 'b': 3, 'c': 4}
+
+──────────────────────────────────────────────────────────────
+🔹 IMMUTABILITY OF KEYS
+──────────────────────────────────────────────────────────────
+   ✅ Keys must be **immutable** (strings, numbers, tuples)
+   ❌ Keys cannot be mutable (lists, sets, dicts)
+
+   Example:
+       d = {[1, 2]: "Hello"}  # ❌ Error: unhashable type: 'list'
+──────────────────────────────────────────────────────────────

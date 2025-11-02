@@ -1,0 +1,175 @@
+──────────────────────────────────────────────────────────────
+                 PYTHON SET METHODS — SUMMARY
+──────────────────────────────────────────────────────────────
+
+📘 What is a Set?
+   → A **set** is an unordered collection of **unique elements**.
+   → Defined using curly braces { } or the set() constructor.
+   → Mutable (can be changed), but elements must be **immutable** (no lists or dicts).
+
+   Example:
+       s = {1, 2, 3, 3, 2}
+       print(s)
+       # Result → {1, 2, 3}  (duplicates removed)
+
+──────────────────────────────────────────────────────────────
+🔹 BASIC SET METHODS
+──────────────────────────────────────────────────────────────
+
+1. add(x)
+   → Adds an element x to the set.
+   Example:
+       s = {1, 2}
+       s.add(3)
+       # Result → {1, 2, 3}
+
+2. update(iterable)
+   → Adds multiple elements (from list, tuple, or another set).
+   Example:
+       s = {1, 2}
+       s.update([3, 4, 5])
+       # Result → {1, 2, 3, 4, 5}
+
+3. remove(x)
+   → Removes element x. Raises an error if x not found.
+   Example:
+       s = {1, 2, 3}
+       s.remove(2)
+       # Result → {1, 3}
+
+4. discard(x)
+   → Removes element x if it exists. No error if not found.
+   Example:
+       s = {1, 2, 3}
+       s.discard(4)
+       # Result → {1, 2, 3}
+
+5. pop()
+   → Removes and returns a random element (since sets are unordered).
+   Example:
+       s = {1, 2, 3}
+       s.pop()
+       # Result → removes one random element
+
+6. clear()
+   → Removes all elements from the set.
+   Example:
+       s = {1, 2, 3}
+       s.clear()
+       # Result → set()
+
+7. copy()
+   → Returns a shallow copy of the set.
+   Example:
+       s = {1, 2, 3}
+       new_s = s.copy()
+       # Result → new_s = {1, 2, 3}
+
+──────────────────────────────────────────────────────────────
+🔹 SET OPERATIONS (MATHEMATICAL)
+──────────────────────────────────────────────────────────────
+
+8. union(other)
+   → Returns a new set with all elements from both sets.
+   Example:
+       a = {1, 2, 3}
+       b = {3, 4, 5}
+       a.union(b)
+       # Result → {1, 2, 3, 4, 5}
+   Shortcut:
+       a | b
+
+9. intersection(other)
+   → Returns elements common to both sets.
+   Example:
+       a = {1, 2, 3}
+       b = {2, 3, 4}
+       a.intersection(b)
+       # Result → {2, 3}
+   Shortcut:
+       a & b
+
+10. difference(other)
+    → Returns elements present in first set but not in second.
+    Example:
+        a = {1, 2, 3, 4}
+        b = {3, 4, 5}
+        a.difference(b)
+        # Result → {1, 2}
+    Shortcut:
+        a - b
+
+11. symmetric_difference(other)
+    → Returns elements that are in either set, but not both.
+    Example:
+        a = {1, 2, 3}
+        b = {3, 4, 5}
+        a.symmetric_difference(b)
+        # Result → {1, 2, 4, 5}
+    Shortcut:
+        a ^ b
+
+──────────────────────────────────────────────────────────────
+🔹 SET RELATION METHODS
+──────────────────────────────────────────────────────────────
+
+12. issubset(other)
+    → Returns True if all elements of the set are in 'other'.
+    Example:
+        a = {1, 2}
+        b = {1, 2, 3}
+        a.issubset(b)
+        # Result → True
+
+13. issuperset(other)
+    → Returns True if the set contains all elements of 'other'.
+    Example:
+        a = {1, 2, 3}
+        b = {2, 3}
+        a.issuperset(b)
+        # Result → True
+
+14. isdisjoint(other)
+    → Returns True if both sets have no common elements.
+    Example:
+        a = {1, 2}
+        b = {3, 4}
+        a.isdisjoint(b)
+        # Result → True
+
+──────────────────────────────────────────────────────────────
+🔹 BUILT-IN FUNCTIONS USED WITH SETS
+──────────────────────────────────────────────────────────────
+
+15. len(s)
+    → Returns number of elements in the set.
+
+16. max(s), min(s)
+    → Return the maximum and minimum elements.
+
+17. sum(s)
+    → Returns sum of all numeric elements.
+
+18. sorted(s)
+    → Returns a sorted list from the set (set remains unordered).
+
+──────────────────────────────────────────────────────────────
+🔹 IMMUTABLE SET (frozenset)
+──────────────────────────────────────────────────────────────
+
+19. frozenset()
+    → Returns an immutable (unchangeable) version of a set.
+    Example:
+        s = frozenset([1, 2, 3])
+        # Result → frozenset({1, 2, 3})
+
+    ✅ Can be used as a dictionary key
+    ❌ Cannot add or remove elements
+
+──────────────────────────────────────────────────────────────
+🔹 IMPORTANT NOTES
+──────────────────────────────────────────────────────────────
+✅ Sets automatically remove duplicates.
+✅ Sets cannot contain mutable objects (like lists or dicts).
+✅ Unordered — no indexing or slicing possible.
+──────────────────────────────────────────────────────────────
