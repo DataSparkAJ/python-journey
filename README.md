@@ -70,3 +70,29 @@ Python Journey/
 
 I will update this README every week with my progress.
 If you are also learning Python, feel free to follow along.
+
+
+---
+
+## 🧠 Week 2 – Conditionals, Loops & Data Structures
+
+### ✅ Topics Covered
+- Conditional statements (`if`, `elif`, `else`)
+- Loops (`for`, `while`, `break`, `continue`, `pass`)
+- Lists, Tuples, Sets, Dictionaries
+- Functions (parameters, return values, recursion)
+- Pattern printing, prime finder, factorial calculator, etc.
+
+### 🧩 Practice Highlights
+- Student Grade Calculator
+- Spam Detection Program
+- Multiplication Table Generator
+- Factorial Finder (Recursion)
+- Pattern Printing (Triangle, Pyramid)
+
+### 🗒 Notes Files Added
+- `notes_on_lists.txt`
+- `notes_on_dict.txt`
+
+📂 [View Week 2 Folder](./week%202%20-%20conditionals%2C%20loops%2C%20functions%2C%20and%20data%20structures)
+
