@@ -94,5 +94,5 @@ If you are also learning Python, feel free to follow along.
 - `notes_on_lists.txt`
 - `notes_on_dict.txt`
 
-📂 [View Week 2 Folder](./week%202%20-%20conditionals%2C%20loops%2C%20functions%2C%20and%20data%20structures)
-
+📂 [View Week 2 Folder](./[week%202%20-%20conditionals%2C%20loops%2C%20functions%2C%20and%20data%20structures)
+](https://github.com/DataSparkAJ/python-journey/tree/main/Week2)
