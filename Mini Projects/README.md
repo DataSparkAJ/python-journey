@@ -1,45 +1,45 @@
 🐍 Snake, Water, Gun Game
 
-This is a simple console-based mini project built using Python basics that I’ve learned so far.
+* This is a simple console-based mini project built using Python basics that I’ve learned so far.
 
 🎯 Concepts used:
 
-Variables and constants
+* Variables and constants
 
-Conditional statements (if-elif-else)
+* Conditional statements (if-elif-else)
 
-Loops (while True)
+* Loops (while True)
 
-Functions and return values
+* Functions and return values
 
-Random module for computer choice
+* Random module for computer choice
 
-Emoji dictionary for better visuals
+* Emoji dictionary for better visuals
 
 🕹️ How it works:
 
-User selects s, w, or g (Snake, Water, or Gun).
+* User selects s, w, or g (Snake, Water, or Gun).
 
-Computer randomly picks one.
+* Computer randomly picks one.
 
-The program decides the winner using simple logic:
+* The program decides the winner using simple logic:
 
-Snake 🐍 drinks Water 💧 → Snake wins
+* Snake 🐍 drinks Water 💧 → Snake wins
 
-Water 💧 douses Gun 🔫 → Water wins
+* Water 💧 douses Gun 🔫 → Water wins
 
-Gun 🔫 kills Snake 🐍 → Gun wins
+* Gun 🔫 kills Snake 🐍 → Gun wins
 
 💡 Features:
 
-Replays until user chooses to quit
+* Replays until user chooses to quit
 
-Uses emojis for fun visualization
+* Uses emojis for fun visualization
 
 🚀 Future improvement ideas:
 
-Add a score system
+* Add a score system
 
-Add colors to terminal output
+* Add colors to terminal output
 
-Convert to GUI using tkinter later
+* Convert to GUI using tkinter later
