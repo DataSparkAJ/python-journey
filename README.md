@@ -120,7 +120,7 @@ If you are also learning Python, feel free to follow along.
 
 • Working with directories using the os module
 
-* Object-Oriented Programming (OOP)
+• Object-Oriented Programming (OOP)
 
 • Classes and Objects
 
