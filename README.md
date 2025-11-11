@@ -3,8 +3,8 @@
 This repository documents my journey of learning Python from scratch to advanced level.
 I am organizing my learning week-by-week and uploading my practice code, mini projects, and notes.
 
-📚 Week 1 Progress – Python Basics
-✅ Topics Covered:
+## 📚 Week 1 Progress – Python Basics
+### ✅ Topics Covered:
 
 * Printing and basic syntax (first.py)
 
@@ -99,8 +99,9 @@ If you are also learning Python, feel free to follow along.
 📂 (https://github.com/DataSparkAJ/python-journey/tree/main/Week2)
 
 
-Week 3 – File Handling & Object-Oriented Programming (OOP)
-✅ Topics Covered
+## Week 3 – File Handling & Object-Oriented Programming (OOP)
+
+### ✅ Topics Covered
 
 File Handling
 • Opening, reading, and writing files
@@ -122,7 +123,7 @@ Object-Oriented Programming (OOP)
 • Operator Overloading (__add__, __mul__, __len__, __str__)
 • Encapsulation and clean class design
 
-🧩 Practice Highlights
+### 🧩 Practice Highlights
 
 File Handling Programs
 
@@ -166,7 +167,7 @@ notes_on_inheritance.txt
 
 notes_on_operator_overloading.txt
 
-🎯 Key Learnings
+### 🎯 Key Learnings
 
 Understood how to manage files and automate file-based tasks
 
