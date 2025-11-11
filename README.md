@@ -96,7 +96,7 @@ If you are also learning Python, feel free to follow along.
 - `notes_on_tuples.txt`
 - `notes_on_sets.txt`
 
-📂 [View Week 2 Folder](./[week%202%20-%20conditionals%2C%20loops%2C%20functions%2C%20and%20data%20structures)
+📂 (./[week%202%20-%20conditionals%2C%20loops%2C%20functions%2C%20and%20data%20structures)
 ](https://github.com/DataSparkAJ/python-journey/tree/main/Week2)
 Week 3 – File Handling & Object-Oriented Programming (OOP)
 ✅ Topics Covered
