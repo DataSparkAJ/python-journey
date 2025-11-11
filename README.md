@@ -4,6 +4,7 @@ This repository documents my journey of learning Python from scratch to advanced
 I am organizing my learning week-by-week and uploading my practice code, mini projects, and notes.
 
 ## 📚 Week 1 Progress – Python Basics
+
 ### ✅ Topics Covered:
 
 * Printing and basic syntax (first.py)
@@ -46,7 +47,7 @@ Python Journey/
 ├── most used functions of strings.txt
 └── more files will be added weekly...
 
-🎯 Goal of This Repository
+### 🎯 Goal of This Repository
 
 * Build strong Python fundamentals
 
@@ -56,7 +57,7 @@ Python Journey/
 
 * Progress towards automation, backend, data analysis, and projects
 
-🔄 Upcoming (Week 2)
+### 🔄 Upcoming (Week 2)
 
 * Control Statements (if-else, loops)
 
@@ -66,7 +67,7 @@ Python Journey/
 
 * More practice sets
 
-⭐ Stay Consistent
+### ⭐ Stay Consistent
 
 I will update this README every week with my progress.
 If you are also learning Python, feel free to follow along.
@@ -157,25 +158,15 @@ Vector addition and dot product
 
 Property-based salary increment calculator
 
-🗒 Notes Files (if added this week)
-
-notes_on_file_handling.txt
-
-notes_on_classes.txt
-
-notes_on_inheritance.txt
-
-notes_on_operator_overloading.txt
-
 ### 🎯 Key Learnings
 
-Understood how to manage files and automate file-based tasks
+* Understood how to manage files and automate file-based tasks
 
-Learned OOP fundamentals with real use cases
+* Learned OOP fundamentals with real use cases
 
-Practiced writing reusable, modular code with functions & classes
+* Practiced writing reusable, modular code with functions & classes
 
-Started developing logic for real-world applications
+* Started developing logic for real-world applications
 
 📂 View Week 3 Folder
 
