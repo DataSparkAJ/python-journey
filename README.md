@@ -104,59 +104,76 @@ If you are also learning Python, feel free to follow along.
 
 ### ✅ Topics Covered
 
-File Handling
+* File Handling
+
 • Opening, reading, and writing files
+
 • Using with open() context manager
+
 • Reading specific lines with .readline() and .readlines()
+
 • Searching and replacing text within files
+
 • Generating and writing multiple files (like multiplication tables)
+
 • Copying, comparing, renaming, and clearing file contents
+
 • Working with directories using the os module
 
-Object-Oriented Programming (OOP)
+* Object-Oriented Programming (OOP)
+
 • Classes and Objects
+
 • Instance and Class attributes
+
+
 • Constructors (__init__ method)
-• Instance methods and static methods
+
+• Instance methods and static methods 
+
 • Inheritance (single, multiple, multilevel)
+
 • Method Overriding and super()
+
 • Class methods and @property decorator
+
 • Operator Overloading (__add__, __mul__, __len__, __str__)
+
 • Encapsulation and clean class design
 
 ### 🧩 Practice Highlights
 
-File Handling Programs
+* File Handling Programs
 
-Word finder (“twinkle” in file)
+* Word finder (“twinkle” in file)
 
-High Score Tracker
+* High Score Tracker
 
-Multiplication Table Generator
+* Multiplication Table Generator
 
-Word Censor Tool
+* Word Censor Tool
 
-Log file search (“python” line finder)
+* Log file search (“python” line finder)
 
-File Copy & Comparison
+* File Copy & Comparison
 
-File Renamer
+* File Renamer
 
-OOP Exercises
+* OOP Exercises
 
-Employee & Programmer classes
+* Employee & Programmer classes
 
-Calculator class with static methods
+* Calculator class with static methods
 
-Train booking simulation
+* Train booking simulation
 
-Inheritance chain: Employee → Programmer → Manager
+* Inheritance chain: Employee → Programmer → Manager
 
-Complex Number operations (+ and * overload)
+* Complex Number operations (+ and * overload)
 
-Vector addition and dot product
+* Vector addition and dot product
 
-Property-based salary increment calculator
+* Property-based salary increment calculator
 
 ### 🎯 Key Learnings
 
