@@ -177,4 +177,4 @@ Started developing logic for real-world applications
 
 📂 View Week 3 Folder
 
-🔗 [Add your Week 3 GitHub folder link here]
+🔗 [https://github.com/DataSparkAJ/python-journey/tree/main/Week3]
