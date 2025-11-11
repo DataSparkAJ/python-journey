@@ -98,3 +98,83 @@ If you are also learning Python, feel free to follow along.
 
 📂 [View Week 2 Folder](./[week%202%20-%20conditionals%2C%20loops%2C%20functions%2C%20and%20data%20structures)
 ](https://github.com/DataSparkAJ/python-journey/tree/main/Week2)
+Week 3 – File Handling & Object-Oriented Programming (OOP)
+✅ Topics Covered
+
+File Handling
+• Opening, reading, and writing files
+• Using with open() context manager
+• Reading specific lines with .readline() and .readlines()
+• Searching and replacing text within files
+• Generating and writing multiple files (like multiplication tables)
+• Copying, comparing, renaming, and clearing file contents
+• Working with directories using the os module
+
+Object-Oriented Programming (OOP)
+• Classes and Objects
+• Instance and Class attributes
+• Constructors (__init__ method)
+• Instance methods and static methods
+• Inheritance (single, multiple, multilevel)
+• Method Overriding and super()
+• Class methods and @property decorator
+• Operator Overloading (__add__, __mul__, __len__, __str__)
+• Encapsulation and clean class design
+
+🧩 Practice Highlights
+
+File Handling Programs
+
+Word finder (“twinkle” in file)
+
+High Score Tracker
+
+Multiplication Table Generator
+
+Word Censor Tool
+
+Log file search (“python” line finder)
+
+File Copy & Comparison
+
+File Renamer
+
+OOP Exercises
+
+Employee & Programmer classes
+
+Calculator class with static methods
+
+Train booking simulation
+
+Inheritance chain: Employee → Programmer → Manager
+
+Complex Number operations (+ and * overload)
+
+Vector addition and dot product
+
+Property-based salary increment calculator
+
+🗒 Notes Files (if added this week)
+
+notes_on_file_handling.txt
+
+notes_on_classes.txt
+
+notes_on_inheritance.txt
+
+notes_on_operator_overloading.txt
+
+🎯 Key Learnings
+
+Understood how to manage files and automate file-based tasks
+
+Learned OOP fundamentals with real use cases
+
+Practiced writing reusable, modular code with functions & classes
+
+Started developing logic for real-world applications
+
+📂 View Week 3 Folder
+
+🔗 [Add your Week 3 GitHub folder link here]
