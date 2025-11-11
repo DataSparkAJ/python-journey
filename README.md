@@ -126,7 +126,6 @@ If you are also learning Python, feel free to follow along.
 
 • Instance and Class attributes
 
-
 • Constructors (__init__ method)
 
 • Instance methods and static methods 
