@@ -43,3 +43,32 @@
 * Add colors to terminal output
 
 * Convert to GUI using tkinter later
+# 🎯 Mini Project 2 – Number Guessing Game
+
+A fun and interactive Python mini-project where the player tries to guess a randomly generated number.
+
+---
+
+## 🧠 Concepts Used
+- Loops (`while`, `break`)
+- Conditional statements (`if / elif / else`)
+- Random number generation (`random.randint()`)
+- Lists for storing guess history
+- Exception handling (`try / except`)
+
+---
+
+## ⚙️ Features
+- 🎚️ Difficulty Levels:
+  - Easy → Numbers between 1 and 50  
+  - Hard → Numbers between 1 and 200  
+  - Default → Numbers between 1 and 100
+- 🧾 Tracks attempts and shows all previous guesses
+- 🚫 Handles invalid inputs gracefully
+- 🏁 Ends with a summary of attempts and guess history
+
+---
+
+## 💡 How to Run
+```bash
+python perfect_guess.py
