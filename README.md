@@ -187,3 +187,33 @@ If you are also learning Python, feel free to follow along.
 📂 View Week 3 Folder
 
 🔗 [https://github.com/DataSparkAJ/python-journey/tree/main/Week3]
+
+🎮 Mini Project – Number Guessing Game
+
+To wrap up Week 3, I built a fun and interactive Number Guessing Game using everything I’ve learned so far — loops, conditionals, lists, and exception handling.
+
+🧠 Concepts Used
+
+- Loops (while, break)
+
+- Conditional logic (if / elif / else)
+
+- Random number generation (random.randint())
+
+- Lists for storing guess history
+
+- Exception handling with try / except
+
+⚙️ Features
+
+- Difficulty Modes: Easy (1–50), Hard (1–200), Default (1–100)
+
+- Tracks attempts and shows all previous guesses
+
+- Handles invalid inputs smoothly
+
+- Clean loop structure and friendly feedback messages
+
+📂 Project Folder
+
+🔗 
