@@ -188,7 +188,4 @@ If you are also learning Python, feel free to follow along.
 
 🔗 [https://github.com/DataSparkAJ/python-journey/tree/main/Week3]
 
-🎮 Mini Projects: 
-
-
-🔗 https://github.com/DataSparkAJ/python-journey/blob/main/Mini%20Projects/perfect_guess.py
+🎮 Mini Projects: https://github.com/DataSparkAJ/python-journey/tree/main/Mini%20Projects
