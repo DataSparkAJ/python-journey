@@ -216,4 +216,4 @@ To wrap up Week 3, I built a fun and interactive Number Guessing Game using ever
 
 📂 Project Folder
 
-🔗 
+🔗 https://github.com/DataSparkAJ/python-journey/blob/main/Mini%20Projects/perfect_guess.py
