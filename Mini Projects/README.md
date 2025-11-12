@@ -1,8 +1,8 @@
-🐍 Snake, Water, Gun Game
+# 🎯 Mini Project 1 - 🐍 Snake, Water, Gun Game
 
 * This is a simple console-based mini project built using Python basics that I’ve learned so far.
 
-🎯 Concepts used:
+## 🎯 Concepts used:
 
 * Variables and constants
 
@@ -16,7 +16,7 @@
 
 * Emoji dictionary for better visuals
 
-🕹️ How it works:
+## 🕹️ How it works:
 
 * User selects s, w, or g (Snake, Water, or Gun).
 
@@ -30,7 +30,7 @@
 
 * Gun 🔫 kills Snake 🐍 → Gun wins
 
-💡 Features:
+## 💡 Features:
 
 * Replays until user chooses to quit
 
