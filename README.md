@@ -314,5 +314,5 @@ Contains all scripts from this week including:
 
 - practice set solutions
 
-👉 View Week 4 Folder:
-[Add your GitHub link here]
+## 👉 View Week 4 Folder:
+https://github.com/DataSparkAJ/python-journey/tree/main/Week4
