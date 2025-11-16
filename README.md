@@ -189,3 +189,130 @@ If you are also learning Python, feel free to follow along.
 🔗 [https://github.com/DataSparkAJ/python-journey/tree/main/Week3]
 
 🎮 Mini Projects: https://github.com/DataSparkAJ/python-journey/tree/main/Mini%20Projects
+
+## 🧠 Week 4 – Intermediate Python: Exceptions, Functional Programming, Match-Case & More
+
+### This week I moved into more advanced Python concepts that improve code readability, handling, and performance.
+### Here’s everything I covered:
+
+### ✅ Topics Covered
+1. Walrus Operator (:=)
+
+- Assigning and using values inside expressions
+
+- Helpful in loops, conditions, and cleaner code
+
+2. Type Hinting (typing module)
+
+- Added type annotations for functions
+
+- Used List, Dict, Tuple, etc.
+
+3. Match–Case (Structural Pattern Matching)
+
+- A cleaner alternative to multiple if–elif
+
+- Used for HTTP status examples
+
+4. Exception Handling
+
+- try, except, else, finally
+
+- Custom error raising using raise
+
+- Handling specific exceptions like ValueError, ZeroDivisionError
+
+- File opening with graceful fallback
+
+5. File Handling (Advanced)
+
+- Reading files using with open()
+
+- Handling missing files using multiple try-blocks
+
+- Writing multiplication tables to a file
+
+6. Global Variables, Modules & __name__ == "__main__"
+
+- How global variables work
+
+- Importing from modules correctly
+
+- Understanding script vs module execution
+
+7. enumerate()
+
+- Cleaner list iteration with index
+
+8. List Comprehensions
+
+- Creating lists in a single line
+
+- Table generation using comprehension
+
+9. Lambda Functions
+
+- One-line functions
+
+- Used with filter, map, reduce
+
+10. Map, Filter, Reduce
+
+- map() for applying transformations
+
+- filter() for selecting items
+
+- reduce() for cumulative operations
+
+- Real use cases: square, even filter, maximum finder
+
+11. String Formatting & join()
+
+- .format() method
+
+- Joining lists into formatted string
+
+### 🧩 Practice Problems Completed
+
+- Read multiple files with error handling
+
+- Extract specific elements using enumerate
+
+- Generate and save multiplication tables
+
+- Handle division with ZeroDivisionError
+
+- Filter numbers divisible by 5
+
+- Find maximum using reduce
+
+- Format user details with .format()
+
+- Join list of strings with 'join()'
+### 🗂 Folder Added
+
+## 📁 Week4
+Contains all scripts from this week including:
+
+- walrus operator
+
+- type hints
+
+- match-case
+
+- try/except
+
+- global keyword
+
+- enumerate
+
+- list comprehensions
+
+- map/filter/reduce
+
+- join, format
+
+- practice set solutions
+
+👉 View Week 4 Folder:
+[Add your GitHub link here]
