@@ -316,3 +316,39 @@ Contains all scripts from this week including:
 
 ## 👉 View Week 4 Folder:
 https://github.com/DataSparkAJ/python-journey/tree/main/Week4
+
+
+---
+
+## 🧠 Week 5 – NumPy & Pandas (Data Handling & Analysis)
+
+This week, I focused on building strong data manipulation skills using **NumPy and Pandas**, which are the core foundations of Data Science and Machine Learning.
+
+### 🔢 NumPy Topics Covered
+✔ Array Creation (1D, 2D, multi-dimensional)  
+✔ Array Properties (`dtype`, `ndim`, `shape`, `size`)  
+✔ Reshaping, Flattening, Transpose  
+✔ Indexing & Slicing (basic + fancy indexing + filtering)  
+✔ Broadcasting & Vectorization  
+✔ Mathematical & Aggregate Functions (`sum`, `mean`, `min`, `max`, `std`, etc.)  
+✔ Stacking & Splitting Arrays  
+✔ Insert, Delete, Append in Arrays (1D & 2D)  
+✔ Handling Missing / Infinite Values (`numpy.nan`, `isnan`, `nan_to_num`)  
+✔ Random Number Generation  
+
+### 🐼 Pandas Topics Covered
+✔ Series & DataFrame Operations  
+✔ Reading & Writing CSV, Excel, JSON files  
+✔ Selecting rows & columns (`loc`, `iloc`)  
+✔ Conditional filtering & indexing  
+✔ Handling missing data (`fillna`, `replace`, `interpolate`)  
+✔ Merging & Joining (`concat`, `merge`)  
+✔ Grouping and Aggregation (`groupby`, `agg`)  
+✔ Sorting values & multi-index grouping  
+✔ Statistical summary (`describe`)  
+✔ Adding, Updating, Removing rows and columns  
+
+### 🎯 What’s Next?
+Next, I’ll start a **real dataset project using Kaggle** to apply my NumPy and Pandas skills.
+
+---
