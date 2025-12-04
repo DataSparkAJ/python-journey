@@ -389,7 +389,7 @@ This week marked the start of visualizing the data handling skills I built in We
 * Visualizations are the critical bridge between raw data (NumPy/Pandas) and actionable insights.
 
 📂 **View Week 6 Folder:**
-`https://github.com/DataSparkAJ/python-journey/tree/main/Week6`
+https://github.com/DataSparkAJ/python-journey/tree/main/Week%206%20
 
 ***
 
