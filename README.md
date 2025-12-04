@@ -352,3 +352,4 @@ This week, I focused on building strong data manipulation skills using **NumPy a
 Next, I’ll start a **real dataset project using Kaggle** to apply my NumPy and Pandas skills.
 
 ---
+### And here you can see it, I worked on a real dataset https://github.com/DataSparkAJ/netflix-eda-python
