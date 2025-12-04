@@ -353,3 +353,47 @@ Next, I’ll start a **real dataset project using Kaggle** to apply my NumPy and
 
 ---
 ### And here you can see it, I worked on a real dataset https://github.com/DataSparkAJ/netflix-eda-python
+
+
+***
+
+🧠 **Week 6 – Data Visualization (Matplotlib & Seaborn)**
+
+This week marked the start of visualizing the data handling skills I built in Week 5. I focused on the two core Python visualization libraries: Matplotlib (the foundation) and Seaborn (the high-level interface).
+
+✅ **Topics Covered**
+
+* **Matplotlib Fundamentals**:
+    * Creating basic plots (`plt.plot`, `plt.scatter`, `plt.bar`).
+    * Adding labels, titles, legends, and customizing axes.
+    * Working with subplots and figures.
+* **Seaborn Masterclass**:
+    * **Distribution Plots**: `histplot`, `kdeplot`, `countplot` (for analyzing single variables).
+    * **Relationship Plots**: `scatterplot`, `regplot`, `jointplot`, `pairplot` (for analyzing two or more numerical variables).
+    * **Categorical Comparisons**: `boxplot`, `violinplot`, `swarmplot` (for comparing numerical data across categories).
+    * **Matrix Plots**: `heatmap` (used for correlation matrices).
+    * **Aesthetics & Styling**: Mastering `sns.set_style()`, `sns.set_context()`, `sns.despine()`, and using different color palettes.
+* **Integration**: Understanding how Seaborn layers on top of Matplotlib for customized results.
+
+🧩 **Practice Highlights**
+
+* **Palmer Penguins Dataset Analysis**: Used this dataset to practice almost every major Seaborn plot type.
+* **Correlation Analysis**: Generated a `heatmap` to identify strong correlations between features like flipper length and body mass.
+* **Distribution Comparison**: Utilized `violinplot` with `split=True` to efficiently compare the body mass distribution of male vs. female penguins within each species.
+* **The Power of `PairGrid`**: Customized the `pairplot` matrix to show different plot types in the upper, lower, and diagonal sections.
+
+🎯 **Key Learnings**
+
+* I now know how to **choose the right plot** (e.g., `barplot` vs. `countplot`) based on the data and the question being asked.
+* Achieved proficiency in making plots professional and publication-ready using styling and context settings.
+* Visualizations are the critical bridge between raw data (NumPy/Pandas) and actionable insights.
+
+📂 **View Week 6 Folder:**
+`https://github.com/DataSparkAJ/python-journey/tree/main/Week6`
+
+***
+
+🔄 **Upcoming (Week 7)**
+
+* Advanced Data Analysis and Visualization (Time Series, Geospatial Data).
+* Introduction to Machine Learning concepts (Scikit-learn).
