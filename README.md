@@ -357,7 +357,7 @@ Next, I’ll start a **real dataset project using Kaggle** to apply my NumPy and
 
 ***
 
-🧠 **Week 6 – Data Visualization (Matplotlib & Seaborn)**
+## 🧠 **Week 6 – Data Visualization (Matplotlib & Seaborn)**
 
 This week marked the start of visualizing the data handling skills I built in Week 5. I focused on the two core Python visualization libraries: Matplotlib (the foundation) and Seaborn (the high-level interface).
 
