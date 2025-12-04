@@ -393,7 +393,3 @@ https://github.com/DataSparkAJ/python-journey/tree/main/Week%206%20
 
 ***
 
-🔄 **Upcoming (Week 7)**
-
-* Advanced Data Analysis and Visualization (Time Series, Geospatial Data).
-* Introduction to Machine Learning concepts (Scikit-learn).
